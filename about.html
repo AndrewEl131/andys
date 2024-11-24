@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Moderustic:wght@300..800&family=New+Amsterdam&family=Noto+Sans+JP:wght@700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>About us</title>
+    <style>
+        main{
+            width: 100%;
+            height: 100vh;
+            background-color: hsl(263, 87%, 81%) ;
+        }
+        h1{
+            width: 100%;
+            text-align: center;
+            color: aqua;
+        }
+        #about-div{
+            position: relative;
+            top: 100px;
+            width: 100%;
+            font-size: 25px;
+            color: aqua;
+            height: 900px;
+            text-align: center;
+        }
+        .bx{
+            font-size: 22px;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <div class="logo-div">
+                <img src="./media/logo.jpg">
+            </div>
+        </a>
+
+        <div id="menu-container">
+            <a href="index.html">
+                <div class="menu-item">HOME</div>
+            </a>
+            <a href="#">
+                <div class="menu-item">ABOUT</div>
+            </a>
+            <div class="menu-item" onclick="darkChoice()">DARK-LIGHT</div>
+            <a href="login.html">
+                <div class="menu-item">LOGIN</div>
+            </a>
+            
+            
+        </div>
+        <div id="dark-choice">
+            <div id="dark-mode" onclick="dark()"><i class='bx bx-moon' ></i></div>
+            <div id="light-mode" onclick="light()"><i class='bx bx-sun' ></i></div>
+        </div>
+    </header>
+    <main>
+        <h1>About us</h1>
+        <div id="about-div">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, a. Quae voluptate molestiae similique, tenetur deleniti asperiores omnis sit atque magnam velit? Libero saepe modi quo neque nulla! Similique, libero!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus obcaecati itaque ratione nobis nihil voluptatem eius voluptates odio aperiam, ex quos adipisci, nulla consequuntur reprehenderit blanditiis ab inventore? Cupiditate.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In reprehenderit laboriosam nesciunt necessitatibus laborum voluptatum assumenda dolorem earum iste eum, ea rem, dolore exercitationem cupiditate ut praesentium, nulla illum sint!
+        </div>
+    </main>
+    <div id="foot">
+        <div id="foot-side">
+            <a href="index.html" class="andys-foot-a">
+             Andys
+            </a>
+            <div id="author-txt">Author: Andrew elizbarashvili</div>
+            <div id="info-container">
+                <div id="number">
+                    My number: 591-086-704
+                </div>
+                <div id="my-mail">
+                    My mail: Andyelizbarshvilii@gmail.com
+                </div>
+                <div id="social-txt-foot">Social</div>
+                <div id="social-div">
+                    <a href="" class="social-item">
+                        <i class='bx bxl-youtube'></i>
+                    </a>
+                    <a href="" class="social-item">
+                        <i class='bx bxl-tiktok' ></i>
+                    </a>
+                    <a href="" class="social-item">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                    <a href="" class="social-item">
+                        <i class='bx bxl-facebook-circle' ></i>
+                    </a>
+                    <a href="" class="social-item">
+                        <i class='bx bxl-telegram' ></i>
+                    </a>
+                </div>
+            </div>
+            <div id="input-container">
+                <div id="contact-us">Contact us</div>
+                <label id="Username-label">Usearname</label>
+                <input type="text" placeholder="Type Username" id="Username-input" class="inputs">
+                <label id="mail-label">Mail</label>
+                <input type="email" placeholder="Type email" id="email-input" class="inputs">
+                <label id="password-label">Password</label>
+                <input type="password" placeholder="Type password" id="password-input" class="inputs">
+                <button id="myButton" disabled>Submit</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

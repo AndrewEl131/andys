@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:hsl(263, 87%, 81%) ;
+}
+.logo-div{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#menu-container{
+    width: 700px;
+    height: 80px;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.menu-item{
+    width: 150px;
+    height: 40px;
+    background-color: #bd99f8;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: hsl(263, 87%, 90%);
+}
+.menu-item:hover{
+    background-color: hsl(263, 87%, 85%);
+    color: hsl(263, 87%, 95%);
+}
+.menu-item:active{
+    background-color: hsl(263, 87%, 90%);
+}
+#dark-choice{
+    width: 150px;
+    height: 120px;
+    background-color: #bd99f8;
+    display: none;
+    position: absolute;
+    right: 250px;
+    border-radius: 10px;
+}
+#dark-mode{
+    width: 100%;
+    height: 50%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+#light-mode{
+    width: 100%;
+    height: 50%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#dark-mode:hover{
+    background-color: hsl(263, 87%, 85%);
+    color: hsl(263, 87%, 95%);
+}
+#light-mode:hover{
+    background-color: hsl(263, 87%, 85%);
+    color: hsl(263, 87%, 95%);
+}
+a{
+    text-decoration: none;
+}
