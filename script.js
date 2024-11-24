@@ -88,7 +88,7 @@ inputs.forEach(input => {
 });
 
 
-const main = document.getElementsById('main');
+const main = document.getElementById('main');
 const main2 = document.getElementById('main-2');
 const main3 = document.getElementById('main-3');
 const main4 = document.getElementById('main-4');
