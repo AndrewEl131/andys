@@ -521,6 +521,218 @@ hr{
 .andys-txt-img{
     border-radius: 15px;
 }
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    #main-3-4{
+        display: none;
+    }
+    .back-shape{
+        width: 200px;
+        height: 200px;
+        left: 5px;
+    }
+    .back-img{
+        width: 200px;
+        height: 200px;
+        
+    }
+    #main{
+        height: 600px;
+    }
+    #main-txt{
+        width: 180px;
+        font-size: 19px;
+        right: 1px;
+    }
+    .andys{
+        width: 120px;
+        height: 80px;
+        right: 40px;
+        top: 400px;
+    }
+    .just-div{
+        display: none;
+    }
+    .just-div2{
+        display: none;
+    }
+    .main-socials{
+        width: 100px;
+        right: 50px;
+    }
+    .bx{
+        font-size: 20px;
+    }
+    #main-btn{
+        width: 90px;
+        padding: 2px;
+        font-size: 15px;
+        left: 60px;
+        top: 100;
+    }
+    #main-2-txt{
+        font-size: 20px;
+    }
+    #games-container{
+        height: 400px;
+        top: 100px;
+    }
+    .game-box{
+        width: 150px;
+        height: 150px;
+    }
+    #main-3{
+        bottom: 200px;
+    }
+    .input-txt{
+        width: 120px;
+        font-size: 15px;
+        left: 50px;
+    }
+    #input{
+        width: 200px;
+        padding: 3px;
+        left: 50px;
+    }
+    #input-btn{
+        width: 100px;
+        padding: 6px;
+        font-size: 10px;
+        left: 70px;
+    }
+    #list-container{
+        width: 220px;
+        height: 300px;
+        left: 50px;
+    }
+    li{
+        width: 100%;
+    }
+    #fb{
+        font-size: 40px;
+    }
+   
+    #tik-tok{
+        font-size: 40px;
+    }
+    #ig{
+        font-size: 40px;
+    }
+    
+    #dis{
+        font-size: 40px;
+    }
+   
+    #telegram{
+        font-size: 40px;
+    }
+    #main-4{
+        gap: 10px;
+    }
+    .slider img{
+        width: 220px;
+        height: 200px;
+    }
+    .prev{
+        left: 50px;
+    }
+    .next{
+        right: 20px;
+    }
+    .friend-box{
+        width: 200px;
+    }
+    .friend-img{
+        width: 100%;
+        height: 350px;
+    }
+    #friends-div{
+        gap: 5px;
+    }
+    .friend-p-div{
+        font-size: 10px;
+        width: 200px;
+    }
+    .fav-1{
+        width: 200px;
+        top: 100px;
+        right: 20px;
+    }
+    #fav-1-about{
+        width: 100px;
+        height: 100px;
+        border: 1px solid aqua;
+        position: relative;
+        top: 100px;
+        left: 10px;
+        font-size: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: aqua;
+    }
+    #fav-2-about{
+        width: 100px;
+        height: 100px;
+        border: 1px solid aqua;
+        position: relative;
+        top: 400px;
+        left: 10px;
+        font-size: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: aqua;
+    }
+    #fav-song-txt{
+        font-size: 20px;
+        left: 50px;
+        
+    }
+    #fav-song-txt-2{
+        position: absolute;
+        bottom: 500px;
+        left: 80px;
+        font-size: 20px;
+        color: aqua;
+    }   
+    .fav-2{
+        width: 200px;
+        top: 520px;
+        right: 20px;
+    }
+    .film-btn{
+        padding: 4px;
+        font-size: 18px;
+        border-radius: 10px;
+        border: none;
+        background-color: hsl(263, 38%, 55%);
+        color: aqua;
+        cursor: pointer;
+    }
+    #film-buttons{
+        width: 100%;
+        position: absolute;
+        bottom: 100px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    #andys-txt{
+        width: 200px;
+        height: 400px;
+        background-color: #5e408e;
+        position: relative;
+        top: 320px;
+        left: 50px;
+        border-radius: 15px;
+        display: none;
+    }
+}
 
 
 
