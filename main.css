@@ -389,6 +389,12 @@ img.displaySlide{
     text-align: center;
     color: aqua;
 }
+#toko-p{
+    bottom: 50px;
+}
+#xecho-p{
+    bottom: 70px;
+}
 .friend-box:hover{
     position: relative;
     bottom: 5px;
